@@ -1,5 +1,15 @@
-class Car extends React.Component {
-    render() {
-      return <h2>MovieDB</h2>;
-    }
-  }
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+
+function App() {
+    return (
+        <div>
+            <Header />
+            <Main />
+            <Footer />
+        </div>
+    );
+}
+
+export default App;
