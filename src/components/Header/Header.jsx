@@ -1,5 +1,4 @@
-class Header extends React.Component {
-    render() {
+function Header(){
       return (
         <div>
             <h1>MovieDB</h1>
@@ -8,5 +7,6 @@ class Header extends React.Component {
             <MyMovies />
         </div>
       )
-    }
   }
+
+  export default Header;

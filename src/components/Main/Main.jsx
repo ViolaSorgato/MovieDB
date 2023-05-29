@@ -1,5 +1,9 @@
-class Main extends React.Component {
-    render() {
+import MovieList from "../MovieList/MovieList";
+import MovieDetails from "../MovieDetails/MovieDetails";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+
+function Main() {
       return (
         <div>
             <h1>MovieDB</h1>
@@ -8,6 +12,7 @@ class Main extends React.Component {
             <About/>
             <Contact/>
         </div>
-      )
+      );
     }
-  }
+
+    export default Main;
